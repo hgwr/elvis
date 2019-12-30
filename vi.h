@@ -10,6 +10,8 @@
 #define VERSION "ELVIS 1.8pl3, by Steve Kirkendall (22 April 1994)"
 #define COPYING	"This version of ELVIS is freely redistributable."
 
+#include <termios.h>
+
 #include <errno.h>
 #if TOS
 # ifndef __GNUC__
